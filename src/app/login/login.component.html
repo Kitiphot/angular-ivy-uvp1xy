@@ -1,0 +1,20 @@
+<div class="color">Please Login</div>
+<div class="login-container">
+  <div class="login-content">
+    <div>UserName :</div>
+    <div>
+      <input type="text" class="TextBox" id="UserName" value='' #UserName/>
+    </div>
+  </div>
+  <br />
+  <div class="login-content">
+    <div>Password : </div>
+    <div>
+      <input type="password" class="TextBox" id="Password" />
+    </div>
+  </div>
+  <button >Login</button>
+
+  <input class="button" type="submit" value="Login" (click)="onLogin(UserName)">
+
+</div>
